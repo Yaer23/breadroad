@@ -11,6 +11,11 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
+# server default listen on localhost:3000
+
+cd service 
+node index
+
 # build for production with minification
 npm run build
 
