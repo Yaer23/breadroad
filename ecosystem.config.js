@@ -30,13 +30,13 @@ module.exports = {
    */
   deploy: {
     production: {
-      user: 'root',
+      user: 'Lydia',
       host: '132.232.124.245',
       ref: 'origin/master',
       repo: 'git@github.com:Yaer23/breadroad.git',
       path: '/www/breadRoad',
       "ssh_options": "StrictHostKeyChecking=no",
-      'post-deploy': 'git pull && ./run.sh && pm2 reload ecosystem.config.js --env production'
+      'post-deploy': 'git pull && su && ./run.sh && pm2 reload ecosystem.config.js --env production'
     }
   }
 };
