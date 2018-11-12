@@ -17,7 +17,11 @@ import '@/utils/rem.js'
 
 //全局引入vant
 import Vant from 'vant';
-import 'vant/lib/vant-css/index.css';
+import 'vant/lib/index.css';
+
+//  按需引入
+// import { Button, Row, Col, Tabbar, TabbarItem, Icon, Swipe, SwipeItem, Lazyload, List, Field, NavBar, Tab, Tabs, PullRefresh, Cell } from 'vant'
+// Vue.use(Button).use(Row).use(Col).use(Tabbar).use(TabbarItem).use(Icon).use(Swipe).use(SwipeItem).use(Lazyload).use(List).use(Field).use(NavBar).use(Tab).use(Tabs).use(PullRefresh).use(Cell);
 
 Vue.use(Vant);
 //  后期按需引入
