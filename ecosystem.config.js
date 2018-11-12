@@ -30,7 +30,7 @@ module.exports = {
    */
   deploy: {
     production: {
-      user: 'Lydia',
+      user: 'root',
       host: '132.232.124.245',
       ref: 'origin/master',
       repo: 'git@github.com:Yaer23/breadroad.git',
