@@ -36,18 +36,7 @@ module.exports = {
       repo : 'git@github.com:Yaer23/breadroad.git',
       path : '/www/breadRoad',
       "ssh_options": "StrictHostKeyChecking=no",
-      'post-deploy' : 'npm pull && npm install && npm run build && cd ./service && npm install && pm2 reload ecosystem.config.js --env production'
-    },
-    dev : {
-      user : 'node',
-      host : '212.83.163.1',
-      ref  : 'origin/master',
-      repo : 'git@github.com:repo.git',
-      path : '/var/www/development',
-      'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env dev',
-      env  : {
-        NODE_ENV: 'dev'
-      }
+      'post-deploy' : 'yarn && npm run build && pm2 reload ecosystem.config.js --env production'
     }
   }
 };
