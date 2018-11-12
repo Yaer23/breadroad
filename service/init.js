@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 //  数据库的连接
-const db = "mongodb://breadRoadUser:123456@localhost/breadRoad"
+const db = "mongodb://breadRoadUser:123456@127.0.0.1:27017/breadRoad"
 const glob = require('glob')
 const { resolve } = require('path')
 
