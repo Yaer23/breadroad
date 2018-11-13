@@ -1,2 +1,2 @@
 
-cnpm install && npm run build && cd ./service && cnpm install && cd .. && rm -rf ./server/public && mkdir ./service/public && mv ./dist/index.html ./service/public/index.html && mv ./dist/static/ ./service/public/static/
+cnpm install && npm run build && cd ./service && cnpm install && cd .. && rm -rf ./service/public && mkdir ./service/public && mv ./dist/index.html ./service/public/index.html && mv ./dist/static/ ./service/public/static/
