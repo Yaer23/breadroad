@@ -55,7 +55,7 @@ export default new Router({
     {
       path: '/goods/detail/:id',
       name: 'GoodsDetail',
-      component: _import_('goods/newsDetail'),
+      component: _import_('goods/goodsDetail'),
     },
     {
       path: '/storeAddress',

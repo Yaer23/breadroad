@@ -19,18 +19,18 @@ import '@/utils/rem.js'
 import Vant from 'vant';
 import 'vant/lib/index.css';
 
+Vue.use(Vant);
 //  按需引入
 // import { Button, Row, Col, Tabbar, TabbarItem, Icon, Swipe, SwipeItem, Lazyload, List, Field, NavBar, Tab, Tabs, PullRefresh, Cell } from 'vant'
 // Vue.use(Button).use(Row).use(Col).use(Tabbar).use(TabbarItem).use(Icon).use(Swipe).use(SwipeItem).use(Lazyload).use(List).use(Field).use(NavBar).use(Tab).use(Tabs).use(PullRefresh).use(Cell);
 
-Vue.use(Vant);
 //  后期按需引入
-import {
-  Lazyload
-} from 'vant';
+// import {
+  // Lazyload
+// } from 'vant';
 
 // options 为可选参数，无则不传
-Vue.use(Lazyload);
+// Vue.use(Lazyload);
 
 //  设置全局过滤器
 Vue.filter('priceFilter', function (data) {
