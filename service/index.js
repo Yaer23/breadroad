@@ -40,7 +40,7 @@ app.use(router.allowedMethods())
   initSchemas()
 })()
 
-app.listen(3000, () => {
+app.listen(8081, () => {
   console.log('[Server] starting at port 3000')
 })
 
