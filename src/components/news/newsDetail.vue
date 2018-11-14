@@ -73,10 +73,10 @@ export default {
   padding: 10px;
 }
 .newsContent img{
-  width: 200px !important;
+  width: 12.5rem !important;
 }
 .title, .time {
-  padding-left: 15px;
+  padding-left: .9375rem;
   color: #de3030;
 }
 

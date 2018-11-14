@@ -25,12 +25,12 @@ Vue.use(Vant);
 // Vue.use(Button).use(Row).use(Col).use(Tabbar).use(TabbarItem).use(Icon).use(Swipe).use(SwipeItem).use(Lazyload).use(List).use(Field).use(NavBar).use(Tab).use(Tabs).use(PullRefresh).use(Cell);
 
 //  后期按需引入
-// import {
-  // Lazyload
-// } from 'vant';
+import {
+  Lazyload
+} from 'vant';
 
 // options 为可选参数，无则不传
-// Vue.use(Lazyload);
+Vue.use(Lazyload);
 
 //  设置全局过滤器
 Vue.filter('priceFilter', function (data) {

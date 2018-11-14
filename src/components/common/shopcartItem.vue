@@ -81,13 +81,13 @@ export default {
 .shopcartItem {
   position: relative;
   background-color: #fff;
-  padding: 10px;
+  padding: .625rem;
   border: 1px solid #eee;
 }
 .close {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: .625rem;
+  right: .625rem;
 }
 .close:hover {
   color: rgb(243, 26, 26);
@@ -95,19 +95,19 @@ export default {
 }
 
 .top {
-  margin-left: 180px;
+  margin-left: 11.25rem;
 }
 .bottom {
-  margin-left: 100px;
+  margin-left: 6.25rem;
 }
 .img {
-  width: 120px;
-  height: 100px;
+  width: 7.5rem;
+  height: 6.25rem;
 }
 .switch {
-  margin-right: 50px;
+  margin-right: 3.125rem;
   position: absolute;
-  top: 100px;
+  top: 6.25rem;
 }
 .stepper {
   display: inline-block;
@@ -117,7 +117,7 @@ export default {
   color: #de3030;
   font-size: 18px;
   vertical-align: bottom;
-  margin-right: 10px;
+  margin-right: .625rem;
 }
 .goodsInfo {
   display: inline-block;

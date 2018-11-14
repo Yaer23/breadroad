@@ -47,10 +47,10 @@ export default {
 <style scoped>
 .storeAddress {
   background-color: #1c1f24;
-  margin-bottom: 120px;
+  margin-bottom: 7.5rem;
   overflow: hidden;
   background-image: url("../../assets/images/bj.jpg");
-  background-size: 380px 320px;
+  background-size: 23.75rem 20rem;
   /* background-position: center; */
   /* background-repeat: no-repeat; */
 }
@@ -65,19 +65,19 @@ export default {
 }
 .bottom {
   width: 100%;
-  height: 70px;
+  height: 4.375rem;
   background-color: #de3030;
   color: #fff;
   font-size: 18px;
   text-align: center;
-  line-height: 70px;
+  line-height: 4.375rem;
   position: fixed;
-  bottom: 50px;
+  bottom: 3.125rem;
 }
 .address {
   color: #fff;
   font-size: 15px;
-  padding: 5px 15px;
+  padding: .3125rem .9375rem;
 }
 .city {
   color: #de3030;

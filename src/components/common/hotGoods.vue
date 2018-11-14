@@ -16,14 +16,13 @@ export default {
 
 <style scoped>
 .hotGoods {
-  display: inline-block;
-  width: 11.25rem;
-  height: 20rem;
+  width: 10.5rem;
+  height: 18rem;
   box-sizing: border-box;
   background-color: #fff;
   border: 1px solid #de3030;
   border-radius: .625rem;
-  margin: .3125rem 0rem .3125rem .625rem;
+  margin-bottom: .8rem;
   overflow: hidden;
 }
 
@@ -34,6 +33,7 @@ export default {
 }
 
 .goodsImg {
-  height: .3125rem;
+  width: 10.5rem;
+  height: 15.5rem;
 }
 </style>

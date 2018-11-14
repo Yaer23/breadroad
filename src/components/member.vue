@@ -36,11 +36,11 @@ export default {
 
 <style scoped>
 .head h1 {
-  padding-left: 15px;
+  padding-left: .9375rem;
 }
 .bigBtn {
   position: absolute;
-  bottom: 50px;
+  bottom: 3.125rem;
   background-color: rgb(250, 84, 84);
 }
 </style>

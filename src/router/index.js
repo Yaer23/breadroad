@@ -29,7 +29,7 @@ export default new Router({
     {
       path: '/shopcart',
       name: 'Shopcart',
-      component: _import_('shopcart'),
+      component: _import_('shopCart'),
       meta: {
         requireAuth: true
       }

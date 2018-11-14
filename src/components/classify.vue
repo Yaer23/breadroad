@@ -107,9 +107,7 @@ export default {
 }
 
 .cakeImg {
-  /* width: 370px; */
-  /* height: 300px; */
-  width: 250px;
-  margin-left: 65px;
+  width: 14rem;
+  margin-left: 4rem;
 }
 </style>

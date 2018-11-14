@@ -119,14 +119,14 @@ export default {
   background-color: #fff;
 }
 .goodsInfo {
-  padding: 10px;
+  padding: .625rem;
 }
 .goodsAction {
   z-index: 100;
 }
 .goodsImg {
-  width: 250px;
-  margin-left: 65px;
+  width: 15.625rem;
+  margin-left: 4.0625rem;
 }
 
 .price {

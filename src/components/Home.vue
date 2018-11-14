@@ -48,7 +48,10 @@
       </van-row>
     </div>
     <div class="hot">人气商品</div>
-    <hotGoods v-for="(goods,index) in hotGoods" :key="index" :goods="goods"/>
+    <div class="hotGoods">
+      <hotGoods v-for="(goods,index) in hotGoods" :key="index" :goods="goods"/>
+    </div>
+   
   </div>
 </template>
 
@@ -118,6 +121,11 @@ export default {
   text-align: center;
   color: #fff;
   line-height: 2.2rem;
+}
+.hotGoods {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 /* iconfont */
 

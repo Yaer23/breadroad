@@ -123,22 +123,23 @@ export default {
 
 <style scoped>
 .shopcart {
-  background-color: #fff;
+  background-color: #F6F6F6;
 }
 .emptyShopcart {
   text-align: center;
+  padding: 1rem;
 }
 .emptyShopcart img {
-  margin-top: 20px;
-  width: 200px;
+  margin-top: 1.25rem;
+  width: 12.5rem;
 }
 .chooseAll {
-  margin: 20px;
+  margin: 1.25rem;
 }
 .num {
   color: #de3030;
 }
 .totalNum {
-  padding-left: 15px;
+  padding-left: .9375rem;
 }
 </style>
