@@ -33,7 +33,7 @@ router.use('/store', store.routes())
 //  加载路由中间件
 app.use(router.routes())
 app.use(router.allowedMethods())
-
+app.use(require('koa-static')(path.join(__dirname, '/public')))
 ;
 (async () => {
   await connect()
