@@ -64,8 +64,8 @@ export default {
   data() {
     return {
       images: [
-        "http://pgy8w90g8.bkt.clouddn.com/swiper1.jpeg",
-        "http://pgy8w90g8.bkt.clouddn.com/swiper2.png"
+        "http://images.lydiagogo.cn/swiper1.jpeg",
+        "http://images.lydiagogo.cn/swiper2.png"
       ],
       hotGoods: null
     };
