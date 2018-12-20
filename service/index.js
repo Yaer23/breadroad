@@ -27,12 +27,11 @@ router.use('/goods', goods.routes())
 router.use('/news', news.routes())
 router.use('/store', store.routes())
 
-//   托管静态文件
-// app.use(require('koa-static')(path.join(__dirname, 'public')))
 
 //  加载路由中间件
 app.use(router.routes())
 app.use(router.allowedMethods())
+//   托管静态文件
 app.use(require('koa-static')(path.join(__dirname, '/public')))
 ;
 (async () => {

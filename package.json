@@ -1,7 +1,7 @@
 {
   "name": "breadroad",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "A webapp based on bread",
   "author": "Yaer23 <770631546@qq.com>",
   "private": true,
   "scripts": {

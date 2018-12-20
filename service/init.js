@@ -15,7 +15,7 @@ exports.connect = () => {
   return new Promise((resolve, reject) => {
     //  数据库监听事件 disconnect 连接断开时
     mongoose.connection.on('disconnected', () => {
-      console.log('***********数据库断开***********')
+      console.log('-----------数据库断开-----------')
       //  最大连接3次 3次之后连接失败就拒绝连入
       if (connectTimes < 3) {
         connectTimes++
@@ -27,7 +27,7 @@ exports.connect = () => {
     })
     //  数据库监听事件 error  连接出错时
     mongoose.connection.on('error', err => {
-      console.log('***********数据库错误***********')
+      console.log('----------数据库错误-----------')
       if (connectTimes < 3) {
         connectTimes++
         mongoose.connect(db)
